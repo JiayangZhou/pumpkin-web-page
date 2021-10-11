@@ -1,12 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p style={{ 
+                color: 'white', 
+                backgroundColor: '#f0823d',
+                borderRadius: '8px' 
+                }}>
           Welcome to our front page
           - Yuning, Leilei, Jiayang
         </p>
@@ -19,6 +26,8 @@ function App() {
           Contact us
         </a>
       </header>
+      
+
     </div>
   );
 }
