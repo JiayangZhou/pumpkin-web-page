@@ -10,7 +10,7 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 600px auto;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
@@ -23,15 +23,24 @@
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
+  font-size: 3vmin;
   padding: 6px;
 }
 .navbar a:hover {
   color: #f1356d;
 }
+.lab {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px auto;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
 .content {
   max-width: 600px;
   margin: 40px auto;
-  padding: 20px;
+  padding: 20px auto;
 }
 
 body {

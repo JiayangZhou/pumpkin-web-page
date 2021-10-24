@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar';
 import Home from './Home';
+import Labsche from './Labsche'
 
 function App() {
   return (
@@ -17,15 +18,8 @@ function App() {
           Welcome to our front page
           - Yuning, Leilei, Jiayang
         </p>
-        <a
-          className="App-link"
-          href="https://github.com/JiayangZhou"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Contact us
-        </a>
       </header>
+      <Home/>
       
 
     </div>
