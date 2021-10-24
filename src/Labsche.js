@@ -1,14 +1,11 @@
-const Labsche = () => {
+import './App.css';
 
-    const handleClick = () => {
-        console.log('clicked')
-    }
-
-    return(
-        <div className="lab">
-            <h2>button</h2>
-        </div>
-    );
+function Labsche() {
+  return (
+    <div>
+        <h1>Lab Scheduler</h1>
+    </div>
+  );
 }
 
 export default Labsche;
