@@ -2,7 +2,7 @@ import './App.css';
 
 function Labsche() {
   return (
-    <div>
+    <div className="lab">
         <h1>Lab Scheduler</h1>
     </div>
   );

@@ -1,18 +1,20 @@
+import {Link} from 'react-router-dom';
+
 const Navbar = () => {
     return ( 
         <nav className="navbar">
             <h1>Pumpkin</h1>
             <div className="links">
-                <a href="/" style={
+                <Link to="/" style={
                     {
                         width: 'auto',
                     }
-                }>Home</a>
-                <a href="/lab-scheduler" style={
+                }>Home</Link>
+                <Link to="/lab-scheduler" style={
                     {
                         width: 'auto',
                     }
-                }>MW Lab</a>
+                }>MW Lab</Link>
                 <a href="https://github.com/JiayangZhou" style={{ 
            
                 color: 'white', 
